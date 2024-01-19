@@ -1,0 +1,71 @@
+1)Launch https://github.com
+2)Create a account
+3)Create Repository:
+*Click on new
+*Enter Repository name(Project name)
+*Enter oneline description about project---Descriptiontf
+*Select either Public(everyone can see repo & select who can do changes in repo) or private(select who can see repo & can do changes in repo)
+*select checkbox add readme file---detail description about project
+*Click on Createrepository.
+4)Create a file in repo:
+*Click on create new file/add file----click on create new file.
+*Enter file name
+*Enter the content of file
+*Click on commit change.
+5)How to upload file in repo:
+*Click on add file-----drag & drop the file or click on choose your file-----Click on commit change.
+6)Collabration:
+*Click on settings
+*Click on Collabrators
+*Click add people
+*Enter the username/fullname/email---other people
+*Click on add
+7)How to create branch:
+*Click on main dropdown
+*Enter branch name in tf
+*Click on create branch
+8)How to delete branch:
+*Click on main dropdown
+*Click on view all branch
+*Select branch --delete
+9)Clone:send the file from global repository(github) to local repository(git-workdirectory(eclipse))---only once---complete repo
+*Click on File
+*Click on import
+*Click on Git
+*Click on project from git(with smart import)
+*Click on next
+*Click on Clone URL
+*Click on next
+*Source git repositiory---Enter the url(of current repo)----Enter username & password--Click on next.
+*Branch selection---Click on next.
+*Local destination----Click on next.
+*import the project from file system----Click on Finesh.
+10)Push :send the file from Local repository(git---workdirectory(eclipse)) to global repository(github)
+*Select the File
+*right click
+*click on team
+*Click on commit
+*Enter commit message
+*Click on commit & push.
+*Enter username & password(token number)
+*Click on close.
+11)Pull:send the file from global repository(github) to local repository(git)----regular----updated file
+*Select repository
+*right click 
+*Click on team
+*Click on pull
+*Click on finesh
+*Click on close
+12)How to create a Tokens:
+*Click on settings
+*Click on developer settings
+*Click personal access tokens
+*Click on tokens(classic)
+*Click on generate new tokens
+*Click on Generate a new token(classic)
+*Enter the Note(name of token)
+*Select Expiration
+*Select scopes(repo)---having complete accessability of my private/public repository.
+*Click on Generate token
+*Copy the token.
+
