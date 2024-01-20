@@ -1,0 +1,49 @@
+Framework Maven:
+
+ITestListener tool:
+
+1)In src/main/java----commonutils----Create a class Listenerimplementation
+2)Call the methods of ITestListener
+3)Call a class Reporter & method log()----Print string in report & console
+4)Call a getMethod()  & getMethodName()-----to get the method name while programm is in runtime.
+5)Call a getThrowable() & toString()----it thow the exception in runtime in report & console.
+6)call @Listeners----ITestListener  monitor the class.
+7)Add screenshot:
+*pass parameter String Screenshotname
+*Call return & destinationfile.getabsolutepath()
+*Create object of WebDriverUtils
+*Call totakescreenshot()
+*Static sdriver & initialize ---baseclass
+*Handle exception by try catch
+
+
+ExtentReport:
+
+1)Add a dependency extentreport(avanstack)
+2)use onStart() & onFinish()---for extentreports
+3)use Extentreport class---to generate report  & 
+ExtentSparkReporter class---congiguration of report
+4)Create object of ExtentSparkReporter &  In ExtentSparkReporter() enter the path---"./ExtentReport/Report.html"
+5)call setDocumentTitle()---to set title of the report
+6)call setReportName()---to set name to the report
+7)call setTheme()---to set theme of report---DARK or STANDARD
+8)Create object of ExtentReports class
+9)Call attachReporter()---to attach configurations to extentreport
+10)Call setSystemInfo()---to add system information to the report(OS,Browser,Version,PL,Author)
+11)Call flush()-------to generate the report
+12)use test.log(Status status,String details)----to add data to the report
+13)use test.log(Status status,throwable t)----to throw exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+

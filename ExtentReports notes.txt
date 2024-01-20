@@ -1,0 +1,14 @@
+ExtentReports:
+
+1)Add dependency-----extentreports(avenstack)----5.1.0
+2)use ExtentReports in onStart()-----
+3)Create the object of ExtentSparkReporter(for configuration of report)
+4)In ExtentSparkReporter constructor pass the path of the report
+5)Call config methods like:
+*setDocumentTitle()---to set title for the report
+*setReportName()----to set name for the report
+*setTheme()----to set the theme of the report
+6)Create an object of ExtentReports(to add details to report)
+*attachReporter()---it attach all configurations to my report
+*setSystemInfo()----to add extra system information
+7)Call flush() in OnFinish()------to generate report after execution.
